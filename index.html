@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal portfolio of Elian Edgardo Gonzalez Carrillo, Digital Designer, 3D Artist and Web Developer.">
+  <title>Digital Worlds | Elian Gonzalez</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Assets/Css/Portafolio.css">
+</head>
+<body>
+  <header class="hero" id="home">
+    <div class="hero__overlay" aria-hidden="true"></div>
+
+    <button class="lang-switch" id="langSwitch" type="button" aria-label="Cambiar idioma">
+      <span class="lang-switch__globe" aria-hidden="true">◎</span>
+      <span id="langLabel">ES</span>
+    </button>
+
+    <div class="hero__content">
+      <p class="eyebrow" data-i18n="hero.role">3D Artist · Digital Designer · Web Developer</p>
+      <div class="hero__title-wrap">
+        <h1>DIGITAL WORLDS</h1>
+        <span class="hero__extra" data-i18n="hero.more">and more!</span>
+      </div>
+
+      <nav class="game-menu" aria-label="Main navigation">
+        <a class="game-button" href="#profile" data-i18n="nav.profile">PROFILE</a>
+        <a class="game-button" href="#design3d" data-i18n="nav.design3d">3D DESIGN</a>
+        <a class="game-button" href="#web" data-i18n="nav.web">WEB DEVELOPER</a>
+        <a class="game-button" href="#contact" data-i18n="nav.contact">CONTACT</a>
+      </nav>
+    </div>
+
+    <a class="scroll-cue" href="#profile" aria-label="Scroll to profile">⌄</a>
+  </header>
+
+  <main>
+    <section class="section profile-section" id="profile">
+      <div class="section-shell">
+        <div class="section-heading">
+          <span class="section-heading__pixel">01</span>
+          <div>
+            <p class="section-kicker" data-i18n="profile.kicker">PLAYER INFO</p>
+            <h2 data-i18n="profile.title">PROFILE</h2>
+          </div>
+        </div>
+
+        <div class="inventory-panel">
+          <div class="inventory-panel__topbar">
+            <span data-i18n="profile.inventory">PROFILE INVENTORY</span>
+          </div>
+
+          <div class="profile-avatar-card">
+            <button class="avatar-switch" id="avatarSwitch" type="button" aria-label="Switch profile style">
+              <img id="profileAvatar" src="Assets/Images/profile-photo.jpg" alt="Elian Gonzalez profile photo">
+              <span class="avatar-switch__hint" data-i18n="profile.switch">CLICK TO SWITCH SKIN</span>
+            </button>
+            <div class="avatar-mini-grid" aria-hidden="true">
+              <div class="mini-slot"><img src="Assets/Images/profile-photo.jpg" alt=""></div>
+              <div class="mini-slot mini-slot--switch">↔</div>
+              <div class="mini-slot"><img src="Assets/Images/profile-skin.png" alt=""></div>
+            </div>
+          </div>
+
+          <article class="inventory-card inventory-card--about">
+            <img class="inventory-icon" src="Assets/Images/icon-about.png" alt="">
+            <div>
+              <h3 data-i18n="profile.aboutTitle">About Me</h3>
+              <p data-i18n="profile.aboutText">Digital Designer focused on 3D modeling, texturing and web development. I use Blender, Substance Painter, HTML, CSS and JavaScript to build interactive and visual projects.</p>
+            </div>
+          </article>
+
+          <article class="inventory-card">
+            <img class="inventory-icon" src="Assets/Images/icon-skills.png" alt="">
+            <div>
+              <h3 data-i18n="profile.skillsTitle">Skills</h3>
+              <ul>
+                <li data-i18n="skills.modeling">3D Modeling</li>
+                <li data-i18n="skills.texturing">Texturing</li>
+                <li data-i18n="skills.web">Web Development</li>
+                <li data-i18n="skills.graphic">Graphic Design</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="inventory-card">
+            <img class="inventory-icon" src="Assets/Images/icon-tools.png" alt="">
+            <div>
+              <h3 data-i18n="profile.toolsTitle">Software / Tools</h3>
+              <ul>
+                <li>Blender</li>
+                <li>Substance Painter</li>
+                <li>HTML5 / CSS3</li>
+                <li>JavaScript / PHP</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="inventory-card">
+            <img class="inventory-icon" src="Assets/Images/icon-education.png" alt="">
+            <div>
+              <h3 data-i18n="profile.educationTitle">Education</h3>
+              <p data-i18n="profile.educationText">Digital Design of Interactive Media · UACJ · 2025–Present</p>
+            </div>
+          </article>
+
+          <article class="inventory-card">
+            <img class="inventory-icon" src="Assets/Images/icon-experience.png" alt="">
+            <div>
+              <h3 data-i18n="profile.experienceTitle">Experience</h3>
+              <p data-i18n="profile.experienceText">Graphic Design · Ponte Al Tiro · 2024–2026<br>3D Design Intern · Mictlán Project · UACJ · 2026–Present</p>
+            </div>
+          </article>
+
+          <a class="inventory-download" href="Captura-CV.png" download data-i18n="profile.cv">DOWNLOAD CV</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--dark inventory-section" id="design3d">
+      <div class="section-shell">
+        <div class="section-heading">
+          <span class="section-heading__pixel">02</span>
+          <div>
+            <p class="section-kicker" data-i18n="design3d.kicker">BUILDING IN THREE DIMENSIONS</p>
+            <h2 data-i18n="design3d.title">3D DESIGN</h2>
+          </div>
+        </div>
+
+        <div class="showcase-inventory">
+          <div class="showcase-inventory__topbar" data-i18n="design3d.inventory">3D ASSET INVENTORY</div>
+          <div class="asset-grid">
+            <article class="asset-slot asset-slot--large">
+              <div class="asset-slot__image"><img src="Assets/Images/projects/stone-creature.png" alt="Stone creature 3D model"></div>
+              <div class="asset-slot__info">
+                <span class="asset-slot__software">BLENDER · SUBSTANCE PAINTER</span>
+                <h3 data-i18n="design3d.creatureTitle">Stone Creature</h3>
+                <p data-i18n="design3d.creatureText">Game-ready prop study focused on hard-surface forms, stylized stone materials and texturing.</p>
+              </div>
+            </article>
+
+            <article class="asset-slot asset-slot--large">
+              <div class="asset-slot__image"><img src="Assets/Images/projects/quetzalcoatl.png" alt="Quetzalcoatl-inspired 3D model"></div>
+              <div class="asset-slot__info">
+                <span class="asset-slot__software">BLENDER · SUBSTANCE PAINTER</span>
+                <h3 data-i18n="design3d.quetzaTitle">Quetzalcoatl-Inspired Prop</h3>
+                <p data-i18n="design3d.quetzaText">Stylized Mesoamerican-inspired asset combining geometric modeling with translucent stone and metallic materials.</p>
+              </div>
+            </article>
+
+            <article class="asset-slot">
+              <div class="asset-slot__image"><img src="Assets/Images/projects/skull-fence.png" alt="Skull fence 3D model"></div>
+              <div class="asset-slot__info">
+                <span class="asset-slot__software">BLENDER</span>
+                <h3 data-i18n="design3d.skullTitle">Skull Fence</h3>
+                <p data-i18n="design3d.skullText">Environment prop built from modular wooden elements and repeated skull assets.</p>
+              </div>
+            </article>
+
+            <article class="asset-slot">
+              <div class="asset-slot__image"><img src="Assets/Images/projects/ruined-structure.png" alt="Ruined structure 3D model"></div>
+              <div class="asset-slot__info">
+                <span class="asset-slot__software">BLENDER · TEXTURING</span>
+                <h3 data-i18n="design3d.ruinTitle">Ruined Structure</h3>
+                <p data-i18n="design3d.ruinText">Architectural prop study using worn surfaces, stone and aged materials for an environment asset.</p>
+              </div>
+            </article>
+
+            <article class="asset-slot">
+              <div class="asset-slot__image"><img src="Assets/Images/projects/bowl-stand.png" alt="Bowl and wooden stand 3D model"></div>
+              <div class="asset-slot__info">
+                <span class="asset-slot__software">BLENDER · SUBSTANCE PAINTER</span>
+                <h3 data-i18n="design3d.bowlTitle">Bowl & Wooden Stand</h3>
+                <p data-i18n="design3d.bowlText">Small prop focused on material contrast between carved wood and a worn stone vessel.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section web-section inventory-section" id="web">
+      <div class="section-shell">
+        <div class="section-heading">
+          <span class="section-heading__pixel">03</span>
+          <div>
+            <p class="section-kicker" data-i18n="web.kicker">DESIGNING FOR THE BROWSER</p>
+            <h2 data-i18n="web.title">WEB DEVELOPER</h2>
+          </div>
+        </div>
+
+        <div class="showcase-inventory showcase-inventory--web">
+          <div class="showcase-inventory__topbar" data-i18n="web.inventory">WEB PROJECT INVENTORY</div>
+          <article class="web-inventory-card">
+            <div class="web-inventory-card__preview">
+              <div class="site-preview">
+                <span class="site-preview__eyebrow">TODO LO QUE PASA EN LA FRONTERA</span>
+                <strong>PONTE AL TIRO</strong>
+                <span>pontealtiro.mx</span>
+              </div>
+            </div>
+            <div class="web-inventory-card__content">
+              <span class="asset-slot__software">WEB DESIGN · WORDPRESS</span>
+              <h3>Ponte Al Tiro</h3>
+              <p data-i18n="web.ponteText">News website designed for Ponte Al Tiro, focused on clear navigation, strong visual hierarchy and mobile-friendly news consumption.</p>
+              <div class="inventory-tags">
+                <span>Published Site</span><span>News</span><span>Responsive</span>
+              </div>
+              <a class="inventory-action" href="https://pontealtiro.mx" target="_blank" rel="noopener noreferrer" data-i18n="web.visit">VISIT WEBSITE ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-shell contact-shell">
+        <div class="section-heading">
+          <span class="section-heading__pixel">04</span>
+          <div>
+            <p class="section-kicker" data-i18n="contact.kicker">LET'S CONNECT</p>
+            <h2 data-i18n="contact.title">CONTACT</h2>
+          </div>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-copy">
+            <h3 data-i18n="contact.heading">Have a project or opportunity?</h3>
+            <p data-i18n="contact.text">You can contact me by email. This site is static, so the form opens your email application instead of sending data to a server.</p>
+            <div class="contact-actions">
+              <a class="game-button game-button--small" href="mailto:elian.gonzalez05@gmail.com">elian.gonzalez05@gmail.com</a>
+              <button class="game-button game-button--small" id="copyEmail" type="button" data-i18n="contact.copy">COPY EMAIL</button>
+            </div>
+            <p class="copy-status" id="copyStatus" aria-live="polite"></p>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <label>
+              <span data-i18n="contact.name">Name</span>
+              <input type="text" id="contactName" required>
+            </label>
+            <label>
+              <span data-i18n="contact.email">Email</span>
+              <input type="email" id="contactEmail" required>
+            </label>
+            <label>
+              <span data-i18n="contact.message">Message</span>
+              <textarea id="contactMessage" rows="5" required></textarea>
+            </label>
+            <button class="game-button" type="submit" data-i18n="contact.send">OPEN EMAIL</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="#home">DIGITAL WORLDS</a>
+    <span data-i18n="footer.text">UACJ</span>
+  </footer>
+
+  <script src="Assets/Js/Portafolio.js"></script>
+</body>
+</html>
